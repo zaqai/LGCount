@@ -32,7 +32,7 @@ pip install git+https://github.com/openai/CLIP.git
 ```
 
 **Dataset:** 
-[FSC-147](https://github.com/cvlab-stonybrook/LearningToCountEverything) | [CARPK](https://lafi.github.io/LPN/) | [ShanghaiTech](https://www.kaggle.com/datasets/tthien/shanghaitech)
+[FSC-147](https://github.com/cvlab-stonybrook/LearningToCountEverything) | [ZSC-8K(google drive)](https://drive.google.com/file/d/1CW2ijGq1VgaP72zhVjx6lmU1j_yvydD_/view) | [ZSC-8K(123盘)](https://www.123865.com/s/j9YRVv-sJa7d) | [CARPK](https://lafi.github.io/LPN/) | [ShanghaiTech](https://www.kaggle.com/datasets/tthien/shanghaitech)
 
 Extract and put the downloaded data in the `data/` dir. The complete file structure should look like this.
 ```
@@ -46,6 +46,7 @@ data
 │  │  ├─ annotation_FSC147_384.json
 
 ```
+> ​If​ you want to use the ZSC-8K dataset, please run `util/generate_npy.py` to generate the ground-truth density files.
 
 ## Run the Code
 
